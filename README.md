@@ -21,6 +21,7 @@ All released versions are [here](https://github.com/atomizer/muledump/releases).
 - click on account name for individual options menu
 - ctrl-click account name to temporarily hide it from totals
 - read the `accounts.js` file, it has some variables to play with
+- change the background image using the choose file button in the background menu (images must be placed into `lib/images` first)
 
 ## Head to the [wiki](https://github.com/atomizer/muledump/wiki) for more information!
 
