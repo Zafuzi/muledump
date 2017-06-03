@@ -3,10 +3,21 @@ body {
     color: #b3b3b3;
     padding: 10px;
     margin: 0;
+    font-size: 1rem;
+    line-height: 1.2;
     cursor: default;
-    font: 12px Arial, sans-serif;
-    /* Zach Foutz: Set the height and overflow of the page so that no scrolling is needed and images are full height */
+    font-family: Arial, sans-serif;
     min-height: 100vh;
+}
+
+#bgImage {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #cnt {
@@ -23,6 +34,7 @@ body {
     font-size: 15px;
     margin: 0 3px;
     text-align: right;
+    z-index: 99;
 }
 
 #top>div,
@@ -73,6 +85,7 @@ label {
 .menu input {
     float: left;
     clear: left;
+    min-width: 90%;
     margin: 4px;
 }
 
