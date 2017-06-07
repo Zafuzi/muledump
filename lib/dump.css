@@ -85,7 +85,6 @@ label {
 .menu input {
     float: left;
     clear: left;
-    min-width: 90%;
     margin: 4px;
 }
 
@@ -462,4 +461,40 @@ td.cont>div {
 
 .line.error {
     color: #eaa;
+}
+.jscolor {
+    background-color: #4CAF50; /* Green */
+    border: 0  3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+	width: 200px;
+}
+.button {
+	background-color: #4CAF50; /* Green */
+    border: 0  3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+}	
+.button1 {
+	background-color: #555; /* Green */
+    border: 0  3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+	width: 200px;
+}	
+h7 {
+	color: white;
 }
